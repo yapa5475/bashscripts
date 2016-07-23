@@ -1,6 +1,11 @@
 #!/bin/bash
 #By Yash Parekh
 #July 22 2016
+#This script is used to search google using chrome through the command line
+
+#to run
+#chmod u+x google
+#./(search term)
 
 echo "Searching for $@"
 for term in $@ ; do
